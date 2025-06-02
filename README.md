@@ -73,8 +73,11 @@ A imagem abaixo representa a montagem completa do sistema:
 
 /
 ├── sketch.ino # Código-fonte do Arduino
+
 ├── diagram.json # Configuração dos componentes no simulador
+
 ├── README.md # Documentação do projeto
+
 └── assets/
 └── circuito.png # Imagem do circuito no Wokwi
 

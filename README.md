@@ -18,7 +18,6 @@ O **KenzoSafety** é um sistema físico de monitoramento em tempo real, desenvol
 - Potenciômetro (simulando sensor de nível de água)
 - 3 LEDs (Verde, Amarelo, Vermelho)
 - Buzzer (alarme sonoro)
-- Resistores (opcional no simulador, obrigatório na prática)
 - Fios de conexão
 
 ---

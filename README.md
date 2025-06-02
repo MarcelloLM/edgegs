@@ -45,7 +45,7 @@ O **KenzoSafety** é um sistema físico de monitoramento em tempo real, desenvol
 
 ## 🎥 Vídeo Demonstrativo
 
-### ▶️ [Assista ao vídeo explicativo do projeto]([https://youtu.be/ghhzjrXil58])
+### ▶️ [Assista ao vídeo explicativo do projeto](https://youtu.be/ghhzjrXil58)
 
 Neste vídeo de até 3 minutos, mostramos:
 - O problema enfrentado

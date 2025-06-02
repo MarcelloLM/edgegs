@@ -79,7 +79,8 @@ A imagem abaixo representa a montagem completa do sistema:
 ├── README.md # Documentação do projeto
 
 └── assets/
-└── circuito.png # Imagem do circuito no Wokwi
+
+  └── circuito.png 
 
 
 ---

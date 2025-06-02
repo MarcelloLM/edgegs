@@ -18,18 +18,18 @@ O **KenzoSafety** é um sistema físico de monitoramento em tempo real, desenvol
 - Potenciômetro (simulando sensor de nível de água)
 - 3 LEDs (Verde, Amarelo, Vermelho)
 - Buzzer (alarme sonoro)
-- Resistores
+- Resistores (opcional no simulador, obrigatório na prática)
 - Fios de conexão
 
 ---
 
 ## 📋 Lógica de Funcionamento
 
-| Nível da água | LED      | Alarme        | Ação sugerida                |
-|---------------|----------|----------------|-------------------------------|
-| Baixo         | Verde    | Nenhum         | Situação normal               |
-| Moderado      | Amarelo  | Beep intermitente | Atenção – risco iminente     |
-| Alto          | Vermelho | Alarme contínuo | Alerta máximo – evacuação     |
+| Nível da água | LED      | Alarme            | Ação sugerida                |
+|---------------|----------|-------------------|-------------------------------|
+| Baixo         | Verde    | Nenhum            | Situação normal               |
+| Moderado      | Amarelo  | Beep intermitente | Atenção – risco iminente      |
+| Alto          | Vermelho | Alarme contínuo   | Alerta máximo – evacuação     |
 
 ---
 
@@ -55,3 +55,35 @@ Neste vídeo de até 3 minutos, mostramos:
 
 ---
 
+## 🔧 Circuito do Projeto
+
+O circuito foi desenvolvido utilizando o simulador **Wokwi** e é composto por:
+
+- **Potenciômetro** (simulando o nível de água)
+- **3 LEDs** (verde, amarelo e vermelho para sinalização de risco)
+- **Buzzer** (alerta sonoro)
+
+A imagem abaixo representa a montagem completa do sistema:
+
+![Circuito do KenzoSafety](assets/circuito.png)
+
+---
+
+## 📁 Estrutura do Projeto
+
+/
+├── sketch.ino # Código-fonte do Arduino
+├── diagram.json # Configuração dos componentes no simulador
+├── README.md # Documentação do projeto
+└── assets/
+└── circuito.png # Imagem do circuito no Wokwi
+
+
+---
+
+## 👨‍💻 Desenvolvido por
+
+- **Fernando Kenzo**
+- **Marcello Lassalla**  
+- FIAP – Global Solution 2025  
+- Disciplina: Edge Computing & IoT  
